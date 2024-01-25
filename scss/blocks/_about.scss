@@ -1,0 +1,113 @@
+.about {
+    position: relative;
+    margin-top: 122px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 40px;
+        width: 70%;
+        max-width: 974px;
+        height: 15px;
+        background-color: #e5ecf4;
+    }
+}
+
+.about__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.about__list__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 350px;
+}
+
+.about__list__item-img {
+    display: inline-block;
+    padding: 24px 29px;
+    background-color: #fcb72b;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.about__list__item-title {
+    font-family: monospace;
+    color: #495567;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    margin-bottom: 27px;
+}
+
+.about__list__item-text {
+    color: #939caa;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about::before {
+        content: none;
+    }
+
+    .about__list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about__list__item {
+        max-width: 85%;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .about__list__item-main {
+        max-width: 400px;
+    }
+
+    .about__list__item-img:nth-child(1) {
+        position: relative;
+        margin-right: 20px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            top: -200px;
+            left: 40px;
+            width: 15px;
+            height: 200px;
+            background-color: #e5ecf4;
+        }
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .about__list__item {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about__list__item-img {
+        padding: 14px 17px;
+
+        & > img {
+            width: 23px;
+            height: 28px;
+        }
+
+        &:nth-child(1)::before {
+            content: none;
+        }
+    }
+}
