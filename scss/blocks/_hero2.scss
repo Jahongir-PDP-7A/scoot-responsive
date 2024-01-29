@@ -1,8 +1,8 @@
 .about-hero {
-    position: relative;
-    background-image: url('../../images/aboutBitmap.svg');
     background-size: cover;
     padding: 72px 0;
+    position: relative;
+    background-image: url('../../images/aboutBitmap.svg');
 }
 
 .about-hero__main {
@@ -12,12 +12,12 @@
 
 .about-hero__title {
     color: #FFF;
-    font-family: monospace;
     font-size: 56px;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: -2.5px;
     margin: 0;
+    font-family: monospace;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -32,9 +32,9 @@
     }
 
     .about-hero__main {
+        margin: 0 auto;
         max-width: 100%;
         text-align: center;
-        margin: 0 auto;
     }
 }
 
@@ -42,10 +42,10 @@
     .about-hero__title {
         color: #fff;
         text-align: center;
-        font-size: 40px;
         font-weight: 700;
         line-height: 40px;
         letter-spacing: -1.786px;
+        font-size: 40px;
         font-family: monospace;
     }
 }

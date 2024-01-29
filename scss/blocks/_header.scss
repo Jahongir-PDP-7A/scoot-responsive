@@ -9,6 +9,7 @@
 
 .site-logo__link {
   text-decoration: none;
+  display: inline-block;
 }
 
 .site-logo {
@@ -72,7 +73,9 @@
   background-color: transparent;
 }
 
-
+.menu--open {
+  display: flex;
+}
 @media only screen and (max-width: 713px) {
   .header__inner_list {
     display: none;

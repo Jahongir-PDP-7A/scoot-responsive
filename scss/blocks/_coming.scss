@@ -1,8 +1,8 @@
 .coming {
-  overflow-x: hidden;
-  position: relative;
   margin-top: 156px;
   margin-bottom: 160px;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .coming::before {
@@ -12,10 +12,10 @@
   left: calc(50% - 1090px);
   width: 735px;
   height: 138px;
-  z-index: 2;
   background-image: url("../../images/vector-right.svg");
   background-size: 735px 138px;
   background-repeat: no-repeat;
+  z-index: 2;
 }
 
 .coming::after {
@@ -199,8 +199,9 @@
     margin-bottom: 56px;
   }
 }
-@media only screen and (max-width: 420px) {
-  .coming::before {
-    content: none;
+
+@media only screen and (max-width: 425px) {
+  .coming__inner-img {
+    margin-bottom: 10px;
   }
 }
