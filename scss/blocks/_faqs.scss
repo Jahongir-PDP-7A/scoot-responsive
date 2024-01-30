@@ -4,6 +4,8 @@
 }
 
 .faqs__main-heading {
+    width: 100%;
+    max-width: 540px;
     color: #495567;
     text-align: center;
     font-family: monospace;
@@ -106,8 +108,11 @@
     }
 
     .faqs__main-item-box-heading {
+        width: 100%;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 32px;
-        margin-left: 100px;
     }
 }
 
