@@ -6,6 +6,7 @@
 .faqs__main-heading {
     width: 100%;
     max-width: 540px;
+    margin: 0 auto;
     color: #495567;
     text-align: center;
     font-family: monospace;
@@ -107,6 +108,11 @@
         margin: 0 auto;
     }
 
+    .faqs__main-item-box-item-heading {
+        max-width: 356px;
+        width: 100%;
+    }
+
     .faqs__main-item-box-heading {
         width: 100%;
         max-width: 350px;
@@ -125,6 +131,11 @@
         font-weight: 700;
         line-height: 32px;
         letter-spacing: -1.429px;
+    }
+
+    .faqs__main-item-box-item-heading {
+        max-width: 219px;
+        width: 100%;
     }
 
     .faqs__main-item-box-heading {
