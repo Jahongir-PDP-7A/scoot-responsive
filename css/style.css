@@ -2011,4 +2011,124 @@ img {
   .btn {
     padding: 14px 90px;
   }
+}
+.your {
+  margin-bottom: 120px;
+}
+
+.your-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.your-inner__title {
+  max-width: 351px;
+  width: 100%;
+  color: #495567;
+  font-family: monospace;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+
+.your-inner__text {
+  max-width: 445px;
+  width: 100%;
+  color: #939caa;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.your__main-link {
+  color: #fff;
+  text-align: center;
+  font-family: monospace;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 167%;
+  display: inline-block;
+  background: #fcb72b;
+  padding: 14px 45px;
+  text-decoration: none;
+  border: 3px solid transparent;
+}
+
+.your__main-link:active {
+  color: #fcb72b;
+  background-color: #fff;
+  border-color: #fcb72b;
+}
+
+@media only screen and (max-width: 768px) {
+  .your-inner {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .your-inner__text {
+    margin-top: 40px;
+    margin: 40px;
+    text-align: center;
+  }
+  .your-inner__title {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .your-inner__text {
+    margin-top: 32px;
+    margin: 32px;
+  }
+}
+.Locations {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.Locations-inner__img {
+  min-width: 100%;
+  width: 100%;
+}
+
+.Locations-inner__img1 {
+  display: none;
+}
+
+.locations__list {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.locations__item {
+  padding: 22px;
+  text-align: center;
+  background: rgba(252, 183, 43, 0.15);
+  color: #495567;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+}
+
+@media only screen and (max-width: 440px) {
+  .Locations-inner__img1 {
+    max-width: 100%;
+    display: block;
+  }
+  .Locations-inner__img {
+    display: none;
+  }
+}
+@media only screen and (min-width: 440px) {
+  .locations__list {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

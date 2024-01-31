@@ -1,0 +1,51 @@
+.Locations {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.Locations-inner__img {
+    min-width: 100%;
+    width: 100%;
+}
+
+.Locations-inner__img1 {
+    display: none;
+}
+
+.locations__list {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.locations__item {
+    padding: 22px;
+    text-align: center;
+    background: rgba(252, 183, 43, 0.15);
+    color: #495567;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+}
+
+@media only screen and (max-width:440px) {
+    .Locations-inner__img1 {
+        max-width: 100%;
+        display: block;
+    }
+
+    .Locations-inner__img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:440px) {
+    .locations__list {
+        display: none;
+    }
+}
