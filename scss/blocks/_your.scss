@@ -70,6 +70,33 @@
     .your-inner__text {
         margin-top: 32px;
         margin: 32px;
+
     }
 
+    .your-inner__title {
+        font-family: "Space Mono";
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -1.4285714626312256px;
+        text-align: center;
+    }
+
+    .your-inner__text {
+        font-family: "Lexend Deca";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .your__main-link {
+        font-family: "Space Mono";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
 }
